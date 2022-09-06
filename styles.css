@@ -1,0 +1,88 @@
+/* 
+This new cat website is going live any minute now. 
+Someone needs to style it quick!
+
+The site has two headings h1, and h2. There is are two lists each with a few list items. ::after
+
+Your goal is add some styles. Write your code below.  
+*/
+body {
+    font-family: 'Helvetica';
+    color: #333;
+    background-color: #eee;
+    font-size: 20px;
+    line-height: 1.75;
+    font-weight: 100;
+}
+/* Add the follow styles to the body */
+/* font-family Helvetica */
+/* color #333 */
+/* background-color #eee */
+/* font-size 20px */
+/* line-height 1.75 */
+/* font-weight 100 */
+article {
+    max-width: 800px;
+    margin: auto;
+}
+/* style the article */
+/* max-width 800px */
+/* margin auto */
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+/* Style the h1 heading */
+/* text-align center */
+/* text-transform uppercase */
+h2 {
+    text-decoration: underline;
+}
+
+/* Style the h2 headings */
+/* text-decoration underline */
+ul {
+    list-style: circle;
+}
+
+/* Style ul the list */
+/* list-style circle */
+sup {
+    color: #090
+}
+
+del {
+    text-decoration: line-through;
+    text-decoration-style: wavy;
+    text-decoration-color: #ff6565;
+    color: #aeaeae
+}
+
+/* The sup tag represents superscript give it a color */
+/* color #090 */
+
+
+/* We had to delete to erroneous information style del tag */
+/* text-decoration line-through */
+/* text-decoration-style wavy */
+/* text-decoration-color #ff6565 */
+/* color #aeaeae */
+
+li {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+/* Style all list items: li */
+/* padding left and right 1rem */
+li:nth-child(even) {
+    background-color: #ddd;
+}
+/* Style the even list items */
+/* use this selector: li:nth-child(even) */
+/* background-color #ddd */
+ul {
+    padding: 0;
+}
+
+/* Style the ul  */
+/* padding 0 */
